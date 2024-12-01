@@ -506,6 +506,11 @@ p {
   border-radius: 50%;
   background-color: #002d72;
 }
+.footer-icons div svg {
+  width: 1em;
+  height: 1em;
+  color: white;
+}
 
 .address {
   font-size: 14px !important;
