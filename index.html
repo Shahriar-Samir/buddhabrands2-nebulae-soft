@@ -1,0 +1,398 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebulae Soft | Task 1: Front-End for Landing Page</title>
+    <link rel="shortcut icon" href="images/Nebulae Soft (logo).png" type="image/x-icon">
+
+    <!-- Css Link -->
+     <link rel="stylesheet" href="index.css" media="screen and (min-width: 1113px)">
+     <link rel="stylesheet" href="index-mobile.css" media="screen and (max-width: 1112px)">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Fixed Link For Amazon -->
+        <div class="fixed-nav ">
+            <p class='m-0'>VISIT OUR BRAND STORE ON <button class="button" href="https://www.amazon.ca/stores/page/CF5FC34A-B5FC-4D8A-B46F-A10ACF65412D?maas=maas_adg_234EAA06C0C13625467395E27B220D37_afap_abs&ref_=aa_maas&tag=maas" title="https://www.amazon.ca/stores/page/CF5FC34A-B5FC-4D8A-B46F-A10ACF65412D?maas=maas_adg_234EAA06C0C13625467395E27B220D37_afap_abs&ref_=aa_maas&tag=maas">AMAZON.CA</button></p>
+        </div>
+    
+        <!-- Main Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #74d1ea !important;">
+            <div class="container-fluid">
+                <!-- This Logo is copied from the original code -->
+                <a href="https://buddhabrands.ca/" class="site-header__logo" aria-label="Logo">
+                  <img src='./images/title.svg' style='width:150px'/>
+                  </a>
+
+              <!-- Centered Button -->
+                <ul class="d-flex justify-content-center align-items-center gap-4 list-unstyled fs-4" id="nav" style="color: rgb(0, 48, 110); padding-top: 20px;">
+                    <li class="nav-item nav-item-active">
+                    <a class="nav-link " aria-current="page" href="#"><p class="m-0">Products</p></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#"><p class="m-0">Learn</p></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://buddhabrands.ca/pages/storelocator"><p class="m-0">Where to buy</p></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://buddhabrands.ca/pages/get-in-touch"><p class="m-0">Contact</p></a>
+                    </li>
+                </ul>
+
+                <!-- LeftSide Buttons -->
+                <ul class="nav justify-content-end">
+                    <!-- Google Translate Button -->
+                    <li class="nav-item">
+                        <div id="google_translate_element"></div>
+
+                        <script type="text/javascript">
+                            function googleTranslateElementInit() {
+                            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: "en,bn,hi,fr", layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                            }
+                        </script>
+                        
+                        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://buddhabrands.ca/account/login"><img id="profile" src="images/person.png" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://buddhabrands.ca/cart"><img id="profile" src="images/shopping_bag.png" alt=""></a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Shortcut Buttons -->
+    <div class="short-button" style="background-color: #74d1ea; padding-top: 3%;">
+        <p class="m-0"><a class="link footer-link-t" style="margin-left: 10%;" href="https://buddhabrands.ca/">Home</a><span style="color: rgba(0, 48, 110)"> > </span><a class="link footer-link-t" href="">Shop</a></p>
+
+    <!-- First Container -->
+
+        <div class="d-flex w-100" style="padding-left:10%;padding-right:3%; position:absolute">
+            <div class="" style="width:35%; margin-top:150px">
+                <h1><p style="font-size:50px; color:#002d72">Shop all snacks and beverages.</p></h1>
+                <span style="color: rgba(0, 48, 110);" class="fs-4 fw-semibold">Nutritious, delicious plant-based snacks and beverages.</span>
+            </div>
+            <div class="" style="width:65%">
+                <div class="parent">
+                    <img class="image1" src="https://buddhabrands.ca/cdn/shop/t/55/assets/Mandala_v2_o.svg?v=13973953643622724421706631373" />
+                    <img class="image2" src="https://buddhabrands.ca/cdn/shop/files/collections_hero_690x.png?v=1677961957" />
+                  </div>
+            </div>
+        </div>
+     </div>
+          <div class="w-100" style="height:450px; background-color:#74d1ea">
+           
+     </div>
+
+     <!-- Wave -->
+    <div class="Ocean">
+        <svg class="Wave" viewBox="0 0 12960 1120">
+            <path d="M9720,320C8100,320,8100,0,6480,0S4860,320,3240,320,1620,0,0,0V1120H12960V0C11340,0,11340,320,9720,320Z">
+                <animate
+                    dur="5s"
+                    repeatCount="indefinite"
+                    attributeName="d"
+                    values="
+                        M9720,320C8100,320,8100,0,6480,0S4860,320,3240,320,1620,0,0,0V1120H12960V0C11340,0,11340,320,9720,320Z;
+                        M9720,0C8100,0,8100,319,6480,319S4860,0,3240,0,1620,320,0,320v800H12960V320C11340,320,11340,0,9720,0Z;
+                        M9720,320C8100,320,8100,0,6480,0S4860,320,3240,320,1620,0,0,0V1120H12960V0C11340,0,11340,320,9720,320Z
+                    "
+                />
+            </path>
+        </svg>
+    </div>
+
+
+    <!-- Second Section - Carts Item -->
+    <div class="scroll-container" style="background-color: #bfe6fff5; position: relative; width: 100%; margin-top: -50px;">
+
+        <!-- Left Scroll Button -->
+        <button class="scroll-left" style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); z-index: 10; background-color: #fff; border: none; cursor: pointer; padding: 10px; height: 50px; width: 50px;">
+            &#10094;
+        </button>
+
+        <div class="cart-container">
+
+            <div class="cart-container-child">
+                <div class="card">
+                    <h1><p>Thirsty Buddha® Coconut Water</p></h1>
+                    <p>Nourish your body with the natural benefits of coconut water.</p>
+                    <button class="button" onclick="window.location.href='https://buddhabrands.ca/collections/thirsty-buddha-coconut-water'">View All</button>
+                    <div class="card-body">
+                        <p class="card-text"><img id="card-img" src="https://buddhabrands.ca/cdn/shop/files/coco-water_390x310.png?v=1681418888" alt=""></p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cart-container-child">
+                <div class="card">
+                    <div class="card-img-top" style="background-color: rgb(30, 185, 53);">
+                        <div class="parent">
+                            <img class="card-img-1" src="https://buddhabrands.ca/cdn/shop/files/Lines_600x.png?v=1676471949" />
+                            <img class="card-img-2" src="https://cdn.accentuate.io/6305467334844/1676753812851/classic-coconut-water-hover.png?v=1676753812851" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4><p class="card-text">Classic Coconut Water</p></h4>
+                        <p>490ml <span style="margin: 10px"></span> Pack of 12</p>
+                        <p style="text-align: right;">$39.48</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cart-container-child">
+                <div class="card">
+                    <div class="card-img-top" style="background-color: rgb(30, 136, 185);">
+                        <div class="parent">
+                            <img class="card-img-1" src="https://buddhabrands.ca/cdn/shop/files/Lines_600x.png?v=1676471949" />
+                            <img class="card-img-2" src="https://cdn.accentuate.io/6305467498684/1676123772448/seller2-hover.webp?v=1679003348888" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4><p class="card-text">Coconut Water with Pulp</p></h4>
+                        <p>490ml <span style="margin: 10px"></span> Pack of 12</p>
+                        <p style="text-align: right;">$39.48</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cart-container-child">
+                <div class="card">
+                    <div class="card-img-top" style="background-color: rgba(240, 205, 27, 0.945);">
+                        <div class="parent">
+                            <img class="card-img-1" src="https://buddhabrands.ca/cdn/shop/files/Lines_600x.png?v=1676471949" />
+                            <img class="card-img-2" src="https://cdn.accentuate.io/6305467793596/1676120378555/seller1-hover.png?v=1676120378555" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4><p class="card-text">Premium Organic Coconut Water 12x1L</p></h4>
+                        <p>1L <span style="margin: 10px"></span> Pack of 12</p>
+                        <p style="text-align: right;">$77.99</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cart-container-child">
+                <div class="card">
+                    <div class="card-img-top" style="background-color: rgba(240, 205, 27, 0.945);">
+                        <div class="parent">
+                            <img class="card-img-1" src="https://buddhabrands.ca/cdn/shop/files/Lines_600x.png?v=1676471949" />
+                            <img class="card-img-2" src="https://cdn.accentuate.io/6305467793596/1676120378555/seller1-hover.png?v=1676120378555" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4><p class="card-text">Premium Organic Coconut Water 500ml</p></h4>
+                        <p>500ml <span style="margin: 10px"></span> Pack of 12</p>
+                        <p style="text-align: right;">$41.99</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cart-container-child">
+                <div class="card">
+                    <div class="card-img-top" style="background-color: rgba(240, 205, 27, 0.945);">
+                        <div class="parent">
+                            <img class="card-img-1" src="https://buddhabrands.ca/cdn/shop/files/Lines_600x.png?v=1676471949" />
+                            <img class="card-img-2" src="https://cdn.accentuate.io/6305467793596/1676120378555/seller1-hover.png?v=1676120378555" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4><p class="card-text">Premium Organic Coconut Water 6x1L</p></h4>
+                        <p>1L <span style="margin: 10px"></span> Pack of 6</p>
+                        <p style="text-align: right;">$40.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Scroll Button -->
+        <button class="scroll-right" style="position: absolute; margin-top: 38px; top: 44%; right: 10px; transform: translateY(-50%); z-index: 10; background-color: #fff; border: none; cursor: pointer; padding: 10px; height: 50px; width: 50px;">
+            &#10095;
+        </button>
+    </div>
+
+    <!-- Scroll button js -->
+    <script>
+        // Get the elements
+        const scrollContainer = document.querySelector('.cart-container');
+        const scrollLeftButton = document.querySelector('.scroll-left');
+        const scrollRightButton = document.querySelector('.scroll-right');
+    
+        // Scroll left function
+        scrollLeftButton.addEventListener('click', () => {
+            scrollContainer.scrollBy({
+                left: -300, // Scroll left by 300px
+                behavior: 'smooth'
+            });
+        });
+    
+        // Scroll right function
+        scrollRightButton.addEventListener('click', () => {
+            scrollContainer.scrollBy({
+                left: 300, // Scroll right by 300px
+                behavior: 'smooth'
+            });
+        });
+    </script>
+    
+    <!-- Wave 2 -->
+    <div class="Ocean-2">
+        <svg class="Wave-2" viewBox="0 0 12960 1120">
+            <path d="M9720,320C8100,320,8100,0,6480,0S4860,320,3240,320,1620,0,0,0V1120H12960V0C11340,0,11340,320,9720,320Z">
+                <animate
+                    dur="5s"
+                    repeatCount="indefinite"
+                    attributeName="d"
+                    values="
+                        M9720,320C8100,320,8100,0,6480,0S4860,320,3240,320,1620,0,0,0V1120H12960V0C11340,0,11340,320,9720,320Z;
+                        M9720,0C8100,0,8100,319,6480,319S4860,0,3240,0,1620,320,0,320v800H12960V320C11340,320,11340,0,9720,0Z;
+                        M9720,320C8100,320,8100,0,6480,0S4860,320,3240,320,1620,0,0,0V1120H12960V0C11340,0,11340,320,9720,320Z
+                    "
+                />
+            </path>
+        </svg>
+    </div>
+
+      <!-- Third Container of Email -->
+    <div style="background-color: #74d1ea !important;" >
+      <div class="container2 ">
+        <div class="container2-child ">
+            <div class="parent">
+                <img class="image3" src="https://buddhabrands.ca/cdn/shop/files/Lines_600x.png?v=1676471949" />
+                <img class="image4" src="https://buddhabrands.ca/cdn/shop/files/logo_rounded_340x.webp?v=1682693972" />
+              </div>
+        </div>
+        <div class="container2-child two" style="">
+            <h1><p style="width: max-content; color:#00306E; font-size:50px;">POWERED BY <span style="color: white;">PLANTS</span>.</p>
+                <p style="width: max-content;color:#00306E; font-size:50px;">FUELED BY <span style="color: white;">PURPOSE</span>.</p>
+            </h1>
+            <h3 class="footer-heading2">
+                <p >Inspiration Delivered to Your Inbox!</p>
+            </h3>
+            <h5>
+                <p class="footer-heading3">Join the Buddha Brands™ Community and get notified of exclusive promotions and discounts, new products, announcements and more.</p>
+            </h5>
+            <div class="subscribe-container w-100" style="text-align: center; font-family: Concert One, sans-serif;
+                font-weight: 400;
+                font-style: normal;">
+                <input id="input" type="email" placeholder="Email Address"  class="w-100">
+                <button class="button subscribe-btn">Subscribe</button>
+            </div> 
+            <br>
+            <p class="footer-p">By subscribing to our newsletter you understand and accept that we may share your information with vendors or other third parties who perform services on our behalf. The personal information collected may be stored, processed, and transferred to a country or region outside of Quebec. Please read our privacy policy for more details.</p>         
+        </div>
+      </div>
+    
+      <!-- Footer -->
+      <footer style="padding-inline: 20px; position: relative; z-index: 2; font-weight: 400; font-style: normal; margin-bottom: 0; margin-top: -250px;">
+      
+            <div class="d-flex justify-content-between">
+            <div class="shop-footer hidden">
+                <h3 class="h3-footer footer-h3 w-100">
+                    Shop
+                </h3>
+                <div class="footer-link w-100">
+                <a href="#" class="link footer-link-t w-100">Thirsty Buddha <sup id="sup-style">R</sup> Coconut Water</a>
+                <a href="#" class="link footer-link-t w-100">Thirsty Buddha <sup id="sup-style">R</sup> Sparkling Coconut Water</a>
+                <a href="#" class="link footer-link-t w-100">Thirsty Buddha <sup id="sup-style">R</sup> Soda</a>
+                <a href="#" class="link footer-link-t w-100">Thirsty Buddha <sup id="sup-style">R</sup> Bars</a>
+                <a href="#" class="link footer-link-t w-100">Shop All</a>
+            </div>
+            </div>
+            <div class="support hidden">
+                <h3 class="h3-footer footer-h3">
+                    Support
+                </h3>
+                <div class="footer-link">
+                <a href="#" class="link footer-link-t">Contact</a>
+                <a href="#" class="link footer-link-t">Wholesale</a>
+                <a href="#" class="link footer-link-t">FAQs</a>
+                <a href="#" class="link footer-link-t">Shipping & Returns</a>
+                <a href="#" class="link footer-link-t">Refund Policy</a>
+            </div>
+            </div>
+            <div class="learn hidden">
+                <h3 class="h3-footer footer-h3">
+                    Learn
+                </h3>
+                <div class="footer-link">
+                <a href="#" class="link footer-link-t">Our Story</a>
+                <a href="#" class="link footer-link-t">Sustainability</a>
+                <a href="#" class="link footer-link-t">Recipes</a>
+                </div>
+            </div>
+            
+            <div class="social-footer">
+                <h3 class="h3-footer footer-h3">Join,share & Inspire</h3>
+            
+                <div class="social-links">
+            
+                    <a href="#" class="link footer-link-t"><i class="fab fa-instagram insta"></i></a>
+                    <a href="#" class="link footer-link-t"><i class="fab fa-facebook-f face"></i></a>
+                    <a href="#" class="link footer-link-t"><i class="fab fa-twitter twitt"></i></a>
+                </div>
+            <div class="footer-icons"> 
+                <div>
+                <img src="/icons/insta.svg"/>
+                </div>
+                <div>
+                <img src="/icons/facebook.svg"/>
+                </div>
+                <div>
+                <img src="/icons/twitter.svg"/>
+                </div>
+            </div>
+            <h3 class="h3-footer footer-h3">Got a question? <a href="#"> <span> <u class="u-email">Email US!</u> </span></a></h3>
+            <h3 class="h3-footer footer-h3">Temple Lifestyle Inc.</h3>
+            <h4 class="h4-footer-address fs-6 address">
+                Address: 9600 RUE Meilleur Suite 932 
+            </h4>
+            <h4 class="h4-footer-address address">Montreal,Quebec H2N 2E3</h4>
+            <div class="footer-email-address">
+            
+            </div>
+            </div>
+            <div class="buy-footer">
+                <button class="btn footer-btn button">WHERE TO BUY</button>
+            </div>
+            </div>
+            <div class="wavy">
+            
+            </div>
+            <div>
+                <img class="responsive-image" src="https://cdn.shopify.com/s/files/1/0530/5532/4348/files/Stroke.png?v=1676472970" alt="">
+            </div>
+            <div class="footer-end">
+                <div class="footer-copy-right col-6">
+                    &copy 2024, Temple Lifestyle Inc.
+                </div>
+                <div class="footer-end-link col-6">
+                    <a href="#" class="link footer-link-t">privacy Policy</a>
+                    <a href="#" class="link footer-link-t">Terms & Conditions</a>
+                    <a href="#" class="link footer-link-t">Data Requests</a>
+                    <a href="#" class="link footer-link-t">Do Not Sell</a>
+                </div>
+            
+            </div>
+        </footer>
+
+
+    <!-- JS file link -->
+     <script src="index.js"></script>
+    <!-- Bootstarp Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
